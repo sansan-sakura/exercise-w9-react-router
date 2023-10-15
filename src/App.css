@@ -61,3 +61,25 @@ li {
 .read-the-docs {
   color: #888;
 }
+
+.song-box {
+  background: pink;
+  width: 180px;
+  min-height: 80px;
+  color: #fff;
+}
+
+.songs-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.song-card {
+  padding: 2rem;
+  border: #fff 2px solid;
+  border-radious: 5px;
+  margin: 0 auto;
+}
